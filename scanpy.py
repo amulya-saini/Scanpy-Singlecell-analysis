@@ -10,7 +10,7 @@ import numpy as np
 
 # %%
 #reading the data as an anndata (data is obtained from 10x genomics dataset collection)
-adata = sc.read_10x_h5("C://Users//saini//OneDrive//Desktop//Project//5k_mouse_lung_CNIK_3pv3_filtered_feature_bc_matrix.h5")
+adata = sc.read_10x_h5("5k_mouse_lung_CNIK_3pv3_filtered_feature_bc_matrix.h5")
 
 # %%
 #Making the variable names unique
